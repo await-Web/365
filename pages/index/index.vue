@@ -2,7 +2,9 @@
 	<view class="content">
 		<view class="" style="margin-top: 40rpx;font-size: 48rpx;text-align: center;">
 			<text>视频如何去水印?</text>
-			<image class="img" src="/static/1.jpg" mode="widthFix" style="margin-top: 20rpx;"></image>
+			<image class="img" src="/static/1.jpg" mode="widthFix"
+				style="margin-top: 20rpx;width: 640rpx;height: 224rpx">
+			</image>
 		</view>
 		<view class="text-area">
 			<text class="title">这是什么宝藏小程序？它不仅免费去水印，而且不限次数，还无广告！
@@ -18,10 +20,12 @@
 			<text style="font-size: 48rpx; color: chocolate;margin-bottom: 20rpx;">观看视频教程</text>
 			<video id="myVideo" src="/static/video.mp4" controls></video>
 		</view>
+		<view class="u-flex-col" style="width: 100%;align-items: center;">
+			<image class="img" src="/static/2.jpg" mode="widthFix"></image>
+			<image class="img" src="/static/3.jpg" mode="widthFix"></image>
+			<image class="img" src="/static/4.jpg" mode="widthFix"></image>
+		</view>
 
-		<image class="img" src="/static/2.jpg" mode="widthFix"></image>
-		<image class="img" src="/static/3.jpg" mode="widthFix"></image>
-		<image class="img" src="/static/4.jpg" mode="widthFix"></image>
 	</view>
 </template>
 
